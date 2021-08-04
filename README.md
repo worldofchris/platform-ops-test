@@ -17,6 +17,8 @@ export DB_CONNECT_STRING=sqlite:memory
 ```
 
 We want to see logs and monitoring of the resources once they are deployed.
+Developers need to know how to update the application once it has been deployed.
+We want to make sure that the security of the application will not be compromised.
 
 ## What were looking for
 

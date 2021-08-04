@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  description: Manage Kitchen Resources
+  version: 1.0.0
+  title: Manage Kitchen Resources
+paths:
+  /resources:
+    get:
+      summary: Get List of Resources
+      description: 'Return a list of resources'
+      operationId: get_resources
+      responses:
+        '200':
+          description: success
+
+servers:
+  - url: /api/v1
+
+
